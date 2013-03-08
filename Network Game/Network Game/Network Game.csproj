@@ -5,7 +5,7 @@
     <ProjectTypeGuids>{6D335F3A-9D43-41b4-9D22-F6F17C4BE596};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <OutputType>WinExe</OutputType>
+    <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Network_Game</RootNamespace>
     <AssemblyName>Network Game</AssemblyName>
@@ -59,7 +59,14 @@
     <PlatformTarget>x86</PlatformTarget>
     <XnaCompressContent>true</XnaCompressContent>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Lidgren.Network, Version=2011.3.12.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\Lidgren.Network.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Xna.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
       <Private>False</Private>
     </Reference>
@@ -93,6 +100,9 @@
     <Reference Include="System">
       <Private>False</Private>
     </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml">
       <Private>False</Private>
     </Reference>
@@ -107,11 +117,33 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ClientSprite.cs" />
+    <Compile Include="GameObjects\Player.cs" />
+    <Compile Include="GameStates\Lobby.cs" />
+    <Compile Include="IPRequestForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IPRequestForm.Designer.cs">
+      <DependentUpon>IPRequestForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameObject.cs" />
+    <Compile Include="GameState.cs" />
+    <Compile Include="GameStates\InGame.cs" />
+    <Compile Include="GameStates\MultiplayerMenu.cs" />
+    <Compile Include="GameStates\Menu.cs" />
+    <Compile Include="Nettwork\InputParser.cs" />
+    <Compile Include="Nettwork\PacketTypes.cs" />
+    <Compile Include="Nettwork\ClientSpriteParser.cs" />
+    <Compile Include="InputObject.cs" />
+    <Compile Include="Services\InputController.cs" />
+    <Compile Include="Navigation\Button.cs" />
+    <Compile Include="Navigation\GameMenu.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Game1.cs" />
-    <Compile Include="Sprite.cs" />
-    <Compile Include="UserControlledSprite.cs" />
+    <Compile Include="Server.cs" />
+    <Compile Include="Services\ContentLoader.cs" />
+    <Compile Include="SpriteIdGenerator.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Game.ico" />
@@ -149,6 +181,14 @@
       <ProductName>Microsoft XNA Framework Redistributable 4.0</ProductName>
       <Install>true</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ServerStates\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="IPRequestForm.resx">
+      <DependentUpon>IPRequestForm.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\Microsoft.Xna.GameStudio.targets" />

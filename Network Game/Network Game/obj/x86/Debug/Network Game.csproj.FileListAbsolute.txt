@@ -1,0 +1,17 @@
+C:\Users\Harald\Code\C#\Network-Game\Network Game\Network Game\bin\x86\Debug\Network Game.exe
+C:\Users\Harald\Code\C#\Network-Game\Network Game\Network Game\bin\x86\Debug\Network Game.pdb
+C:\Users\Harald\Code\C#\Network-Game\Network Game\Network Game\obj\x86\Debug\Network Game.csprojResolveAssemblyReference.cache
+C:\Users\Harald\Code\C#\Network-Game\Network Game\Network Game\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Harald\Code\C#\Network-Game\Network Game\Network Game\obj\x86\Debug\Network Game.exe
+C:\Users\Harald\Code\C#\Network-Game\Network Game\Network Game\obj\x86\Debug\Network Game.pdb
+C:\Users\Harald\Code\C#\Network-Game\Network Game\Network Game\bin\x86\Debug\Lidgren.Network.dll
+C:\Users\Harald\Code\C#\Network-Game\Network Game\Network Game\bin\x86\Debug\Content\Background.xnb
+C:\Users\Harald\Code\C#\Network-Game\Network Game\Network Game\bin\x86\Debug\Content\ButtonFont.xnb
+C:\Users\Harald\Code\C#\Network-Game\Network Game\Network Game\obj\x86\Debug\Network_Game.IPRequestForm.resources
+C:\Users\Harald\Code\C#\Network-Game\Network Game\Network Game\obj\x86\Debug\Network Game.csproj.GenerateResource.Cache
+C:\Users\Harald\Code\C#\Network-Game\Network Game\Network Game\bin\x86\Debug\Content\c2.xnb
+C:\Users\Harald\Code\C#\Network-Game\Network Game\Network Game\bin\x86\Debug\Content\c3.xnb
+C:\Users\Harald\Code\C#\Network-Game\Network Game\Network Game\bin\x86\Debug\Content\c4.xnb
+C:\Users\Harald\Code\C#\Network-Game\Network Game\Network Game\bin\x86\Debug\Content\c5.xnb
+C:\Users\Harald\Code\C#\Network-Game\Network Game\Network Game\bin\x86\Debug\Content\0.xnb
+C:\Users\Harald\Code\C#\Network-Game\Network Game\Network Game\bin\x86\Debug\Content\1.xnb
