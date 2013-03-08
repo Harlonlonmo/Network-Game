@@ -3,12 +3,10 @@ using System.Collections.Generic;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Lidgren.Network;
-using Microsoft.Xna.Framework.Input;
-using Nettwork_Game.Services;
-using Network_Game.Nettwork;
-using Network_Game.Services;
+using Network_Game.Network;
+using Network_Game.Client.Services;
 
-namespace Network_Game.GameStates
+namespace Network_Game.Client.GameStates
 {
     class InGame : GameState
     {

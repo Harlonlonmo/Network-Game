@@ -1,13 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Graphics;
-using Nettwork_Game.Services;
+using Network_Game.Client.Services;
 
-namespace Nettwork_Game.Navigation
+namespace Network_Game.Client.Navigation
 {
     public class GameMenu
     {

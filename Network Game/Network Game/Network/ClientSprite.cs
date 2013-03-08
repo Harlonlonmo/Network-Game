@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using Microsoft.Xna.Framework;
 
-namespace Network_Game
+namespace Network_Game.Network
 {
     public class ClientSprite
     {

@@ -2,8 +2,9 @@
 using Microsoft.Xna.Framework;
 using Network_Game;
 using System;
+using Network_Game.Network;
 
-namespace Nettwork_Game.Services
+namespace Network_Game.Client.Services
 {
     public class InputController : GameComponent
     {

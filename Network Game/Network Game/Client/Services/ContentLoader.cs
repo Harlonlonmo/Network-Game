@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using Microsoft.Xna.Framework;
 
-namespace Network_Game.Services
+namespace Network_Game.Client.Services
 {
     public class ContentLoader<T>
     {

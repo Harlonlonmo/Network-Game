@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace Network_Game
+namespace Network_Game.Client
 {
     public delegate void ConnectToServer(string ip);
 

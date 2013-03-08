@@ -3,10 +3,10 @@ using System;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
-using Network_Game.GameStates;
-using Network_Game.Services;
-using Nettwork_Game.Services;
+using Network_Game.Client.GameStates;
 using Microsoft.Xna.Framework.Audio;
+using Network_Game.Client.Services;
+using Network_Game.Client;
 
 namespace Network_Game
 {

@@ -2,10 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Nettwork_Game.Services;
 using Lidgren.Network;
 
-namespace Network_Game.Nettwork
+namespace Network_Game.Network
 {
     public class InputParser
     {

@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Microsoft.Xna.Framework;
+using Network_Game.Network;
 
-namespace Network_Game.GameObjects
+namespace Network_Game.Server.GameObjects
 {
     public class Player : GameObject
     {
@@ -13,7 +14,7 @@ namespace Network_Game.GameObjects
 
         public InputObject Input { get; set; }
 
-        public Player(Server game):base(game)
+        public Player(ServerObject game):base(game)
         {
             
             sprites.Add("ground", new ClientSprite(SpriteIdGenerator.getId(), new Vector2(0, 50), 0f, 1));

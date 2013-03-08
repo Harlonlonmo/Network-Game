@@ -1,13 +1,13 @@
 ﻿using System;
 using Lidgren.Network;
 using Microsoft.Xna.Framework;
-using Network_Game.Nettwork;
+using Network_Game.Network;
 using System.Collections.Generic;
-using Network_Game.GameObjects;
+using Network_Game.Server.GameObjects;
 
-namespace Network_Game
+namespace Network_Game.Server
 {
-    public class Server : GameComponent
+    public class ServerObject : GameComponent
     {
         public bool Running { get; set; }
 
@@ -15,7 +15,7 @@ namespace Network_Game
 
         Dictionary<long, Player> Players;
 
-        public Server(Game game)
+        public ServerObject(Game game)
             : base(game)
         {
 

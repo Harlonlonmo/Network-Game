@@ -5,7 +5,7 @@ using System.Text;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace Nettwork_Game.Navigation
+namespace Network_Game.Client.Navigation
 {
     public class Button
     {

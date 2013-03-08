@@ -1,12 +1,12 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
-using Nettwork_Game.Navigation;
-using Network_Game.Services;
 using Lidgren.Network;
 using System;
-using Network_Game.Nettwork;
+using Network_Game.Client.Navigation;
+using Network_Game.Client.Services;
+using Network_Game.Server;
 
-namespace Network_Game.GameStates
+namespace Network_Game.Client.GameStates
 {
     public class MultiplayerMenu : GameState
     {
@@ -111,7 +111,7 @@ namespace Network_Game.GameStates
 
         private void CreateServer()
         {
-            Game.Components.Add(new Server(Game));
+            Game.Components.Add(new ServerObject(Game));
         }
     }
 }

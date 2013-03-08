@@ -1,10 +1,10 @@
-﻿using Network_Game.Services;
-using Nettwork_Game.Navigation;
-using Microsoft.Xna.Framework.Graphics;
+﻿using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework;
 using Lidgren.Network;
+using Network_Game.Client.Services;
+using Network_Game.Client.Navigation;
 
-namespace Network_Game.GameStates
+namespace Network_Game.Client.GameStates
 {
     public class Lobby : GameState
     {

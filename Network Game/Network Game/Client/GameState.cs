@@ -2,7 +2,7 @@
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace Network_Game
+namespace Network_Game.Client
 {
     public abstract class GameState
     {

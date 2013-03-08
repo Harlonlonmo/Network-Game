@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using Lidgren.Network;
 
-namespace Network_Game.Nettwork
+namespace Network_Game.Network
 {
     class ClientSpriteParser
     {

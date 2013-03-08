@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Microsoft.Xna.Framework;
+using Network_Game.Network;
 
-namespace Network_Game
+namespace Network_Game.Server
 {
     public abstract class GameObject
     {
@@ -21,14 +22,14 @@ namespace Network_Game
             }
         }
 
-        public Server Game { get; protected set; }
+        public ServerObject Game { get; protected set; }
 
         private Vector2 position;
 
         public ClientSprite[] Sprites { get { return sprites.Values.ToArray(); } }
         protected Dictionary<String, ClientSprite> sprites;
 
-        public GameObject(Server game)
+        public GameObject(ServerObject game)
         {
             Game = game;
             sprites = new Dictionary<String, ClientSprite>();

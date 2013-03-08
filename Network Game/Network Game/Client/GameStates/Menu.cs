@@ -1,11 +1,10 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
-using Nettwork_Game.Navigation;
-using Network_Game.Services;
-using Nettwork_Game.Services;
 using Microsoft.Xna.Framework.Input;
+using Network_Game.Client.Navigation;
+using Network_Game.Client.Services;
 
-namespace Network_Game.GameStates
+namespace Network_Game.Client.GameStates
 {
     public class Menu : GameState
     {

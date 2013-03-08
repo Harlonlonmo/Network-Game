@@ -1,4 +1,4 @@
-﻿namespace Network_Game
+﻿namespace Network_Game.Client
 {
     partial class IPRequestForm
     {
