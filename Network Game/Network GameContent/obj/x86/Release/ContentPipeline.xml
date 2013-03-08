@@ -7,35 +7,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Harald\Code\C#\Network-Game\Network Game\Network Game\bin\x86\Debug\Content\Background.xnb</Output>
+      <Output>C:\Users\Harald\Code\C#\Network-Game\Network Game\Network Game\bin\x86\Release\Content\Background.xnb</Output>
       <Time>2013-03-07T00:56:08.0267596+01:00</Time>
-    </Item>
-    <Item>
-      <Source>ButtonFont.spritefont</Source>
-      <Name>ButtonFont</Name>
-      <Importer>FontDescriptionImporter</Importer>
-      <Processor>FontDescriptionProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Harald\Code\C#\Network-Game\Network Game\Network Game\bin\x86\Debug\Content\ButtonFont.xnb</Output>
-      <Time>2013-03-07T00:58:33.8301313+01:00</Time>
-    </Item>
-    <Item>
-      <Source>c4.png</Source>
-      <Name>c4</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Harald\Code\C#\Network-Game\Network Game\Network Game\bin\x86\Debug\Content\c4.xnb</Output>
-      <Time>2013-03-07T17:00:04.0781065+01:00</Time>
-    </Item>
-    <Item>
-      <Source>c5.png</Source>
-      <Name>c5</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Harald\Code\C#\Network-Game\Network Game\Network Game\bin\x86\Debug\Content\c5.xnb</Output>
-      <Time>2013-03-07T17:00:04.0821099+01:00</Time>
     </Item>
     <Item>
       <Source>0.png</Source>
@@ -43,17 +16,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Harald\Code\C#\Network-Game\Network Game\Network Game\bin\x86\Debug\Content\0.xnb</Output>
+      <Output>C:\Users\Harald\Code\C#\Network-Game\Network Game\Network Game\bin\x86\Release\Content\0.xnb</Output>
       <Time>2013-03-07T17:00:04.1421598+01:00</Time>
-    </Item>
-    <Item>
-      <Source>1.png</Source>
-      <Name>1</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Harald\Code\C#\Network-Game\Network Game\Network Game\bin\x86\Debug\Content\1.xnb</Output>
-      <Time>2013-03-07T23:37:21.327947+01:00</Time>
     </Item>
     <Item>
       <Source>2.png</Source>
@@ -61,7 +25,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Harald\Code\C#\Network-Game\Network Game\Network Game\bin\x86\Debug\Content\2.xnb</Output>
+      <Output>C:\Users\Harald\Code\C#\Network-Game\Network Game\Network Game\bin\x86\Release\Content\2.xnb</Output>
       <Time>2013-03-07T17:00:04.0711005+01:00</Time>
     </Item>
     <Item>
@@ -70,19 +34,55 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Harald\Code\C#\Network-Game\Network Game\Network Game\bin\x86\Debug\Content\3.xnb</Output>
+      <Output>C:\Users\Harald\Code\C#\Network-Game\Network Game\Network Game\bin\x86\Release\Content\3.xnb</Output>
       <Time>2013-03-07T17:00:04.0751044+01:00</Time>
+    </Item>
+    <Item>
+      <Source>c4.png</Source>
+      <Name>c4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Harald\Code\C#\Network-Game\Network Game\Network Game\bin\x86\Release\Content\c4.xnb</Output>
+      <Time>2013-03-07T17:00:04.0781065+01:00</Time>
+    </Item>
+    <Item>
+      <Source>c5.png</Source>
+      <Name>c5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Harald\Code\C#\Network-Game\Network Game\Network Game\bin\x86\Release\Content\c5.xnb</Output>
+      <Time>2013-03-07T17:00:04.0821099+01:00</Time>
+    </Item>
+    <Item>
+      <Source>1.png</Source>
+      <Name>1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Harald\Code\C#\Network-Game\Network Game\Network Game\bin\x86\Release\Content\1.xnb</Output>
+      <Time>2013-03-07T23:37:21.327947+01:00</Time>
+    </Item>
+    <Item>
+      <Source>ButtonFont.spritefont</Source>
+      <Name>ButtonFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Harald\Code\C#\Network-Game\Network Game\Network Game\bin\x86\Release\Content\ButtonFont.xnb</Output>
+      <Time>2013-03-07T00:58:33.8301313+01:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <TargetPlatform>Windows</TargetPlatform>
       <TargetProfile>HiDef</TargetProfile>
-      <BuildConfiguration>Debug</BuildConfiguration>
-      <CompressContent>false</CompressContent>
+      <BuildConfiguration>Release</BuildConfiguration>
+      <CompressContent>true</CompressContent>
       <RootDirectory>C:\Users\Harald\Code\C#\Network-Game\Network Game\Network GameContent\</RootDirectory>
       <LoggerRootDirectory>C:\Users\Harald\Code\C#\Network-Game\Network Game\Network Game\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\Harald\Code\C#\Network-Game\Network Game\Network GameContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\Harald\Code\C#\Network-Game\Network Game\Network Game\bin\x86\Debug\Content\</OutputDirectory>
+      <IntermediateDirectory>C:\Users\Harald\Code\C#\Network-Game\Network Game\Network GameContent\obj\x86\Release\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Harald\Code\C#\Network-Game\Network Game\Network Game\bin\x86\Release\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>

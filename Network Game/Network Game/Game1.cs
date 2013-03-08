@@ -59,7 +59,8 @@ namespace Network_Game
 
             imageLoader.load("0");
             imageLoader.load("1");
-            
+            imageLoader.load("2");
+            imageLoader.load("3");
         }
 
         protected override void Update(GameTime gameTime)

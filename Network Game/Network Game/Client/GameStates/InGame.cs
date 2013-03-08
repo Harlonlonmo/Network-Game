@@ -93,7 +93,7 @@ namespace Network_Game.Client.GameStates
             // draw all sprites
             foreach (ClientSprite cs in sprites.Values)
             {
-                Texture2D texture = ((ContentLoader<Texture2D>)Game.Services.GetService(typeof(ContentLoader<Texture2D>))).get(cs.SpriteID+"");
+                Texture2D texture = ((ContentLoader<Texture2D>)Game.Services.GetService(typeof(ContentLoader<Texture2D>))).get((ushort)cs.SpriteID+"");
                 spriteBatch.Draw(texture, cs.Position, Color.White);
             }
 

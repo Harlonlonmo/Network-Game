@@ -133,7 +133,7 @@
     <Compile Include="Client\GameStates\MultiplayerMenu.cs" />
     <Compile Include="Client\GameStates\Menu.cs" />
     <Compile Include="Network\InputParser.cs" />
-    <Compile Include="Network\PacketTypes.cs" />
+    <Compile Include="Network\Enums.cs" />
     <Compile Include="Network\ClientSpriteParser.cs" />
     <Compile Include="Network\InputObject.cs" />
     <Compile Include="Client\Services\InputController.cs" />
@@ -145,6 +145,7 @@
     <Compile Include="Server\ServerObject.cs" />
     <Compile Include="Client\Services\ContentLoader.cs" />
     <Compile Include="Network\SpriteIdGenerator.cs" />
+    <Compile Include="Server\ServerStates\ServerGame.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Game.ico" />
@@ -183,9 +184,7 @@
       <Install>true</Install>
     </BootstrapperPackage>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Server\ServerStates\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <EmbeddedResource Include="Client\IPRequestForm.resx">
       <DependentUpon>IPRequestForm.cs</DependentUpon>

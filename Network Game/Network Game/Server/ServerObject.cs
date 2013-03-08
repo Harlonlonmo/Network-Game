@@ -4,6 +4,7 @@ using Microsoft.Xna.Framework;
 using Network_Game.Network;
 using System.Collections.Generic;
 using Network_Game.Server.GameObjects;
+using Network_Game.Server.ServerStates;
 
 namespace Network_Game.Server
 {
@@ -13,12 +14,13 @@ namespace Network_Game.Server
 
         NetServer server;
 
+        //ServerState state;
+
         Dictionary<long, Player> Players;
 
         public ServerObject(Game game)
             : base(game)
         {
-
             Players = new Dictionary<long, Player>();
 
             game.Exiting += UnloadContent;
@@ -31,6 +33,8 @@ namespace Network_Game.Server
             server = new NetServer(config);
             server.Start();
 
+            //state = new ServerGame(this);
+
         }
 
         public override void Update(GameTime gameTime)
@@ -42,11 +46,12 @@ namespace Network_Game.Server
             {
                 obj.Update(gameTime);
             }
+            //state.Update(gameTime);
 
             base.Update(gameTime);
         }
 
-        private void readFromNettwork()
+        public void readFromNettwork()
         {
             NetIncomingMessage msg;
             while ((msg = server.ReadMessage()) != null)
@@ -100,7 +105,7 @@ namespace Network_Game.Server
             }
         }
 
-        private void readData(NetIncomingMessage msg)
+        public void readData(NetIncomingMessage msg)
         {
             while (msg.PositionInBytes < msg.LengthBytes)
             {

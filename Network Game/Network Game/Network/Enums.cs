@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Network_Game.Network
 {
-    enum PacketTypes
+    public enum PacketTypes
     {
         ConnectionRequest,
         ConnectionResponse,
@@ -14,5 +14,13 @@ namespace Network_Game.Network
         EndGame,
         ClientInput,
         ClientSprite
+    }
+
+    public enum SpriteIDs
+    {
+        platform1 = 1,
+        Player1_anim1_frame1 = 0,
+        Player1_anim1_frame2 = 2,
+        Player1_anim1_frame3 = 3
     }
 }

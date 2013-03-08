@@ -1,0 +1,16 @@
+C:\Users\Harald\Code\C#\Network-Game\Network Game\Network Game\bin\x86\Release\Content\Background.xnb
+C:\Users\Harald\Code\C#\Network-Game\Network Game\Network Game\bin\x86\Release\Content\0.xnb
+C:\Users\Harald\Code\C#\Network-Game\Network Game\Network Game\bin\x86\Release\Content\2.xnb
+C:\Users\Harald\Code\C#\Network-Game\Network Game\Network Game\bin\x86\Release\Content\3.xnb
+C:\Users\Harald\Code\C#\Network-Game\Network Game\Network Game\bin\x86\Release\Content\c4.xnb
+C:\Users\Harald\Code\C#\Network-Game\Network Game\Network Game\bin\x86\Release\Content\c5.xnb
+C:\Users\Harald\Code\C#\Network-Game\Network Game\Network Game\bin\x86\Release\Content\1.xnb
+C:\Users\Harald\Code\C#\Network-Game\Network Game\Network Game\bin\x86\Release\Content\ButtonFont.xnb
+C:\Users\Harald\Code\C#\Network-Game\Network Game\Network Game\bin\x86\Release\Network Game.exe
+C:\Users\Harald\Code\C#\Network-Game\Network Game\Network Game\bin\x86\Release\Network Game.pdb
+C:\Users\Harald\Code\C#\Network-Game\Network Game\Network Game\bin\x86\Release\Lidgren.Network.dll
+C:\Users\Harald\Code\C#\Network-Game\Network Game\Network Game\obj\x86\Release\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Harald\Code\C#\Network-Game\Network Game\Network Game\obj\x86\Release\Network_Game.Client.IPRequestForm.resources
+C:\Users\Harald\Code\C#\Network-Game\Network Game\Network Game\obj\x86\Release\Network Game.csproj.GenerateResource.Cache
+C:\Users\Harald\Code\C#\Network-Game\Network Game\Network Game\obj\x86\Release\Network Game.exe
+C:\Users\Harald\Code\C#\Network-Game\Network Game\Network Game\obj\x86\Release\Network Game.pdb
